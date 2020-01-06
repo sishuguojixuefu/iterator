@@ -1,6 +1,6 @@
 {
   "name": "@sishuguojixuefu/iterator",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "让前端分页需求更简单",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -28,7 +28,7 @@
     "email": "1003719811@qq.com"
   },
   "devDependencies": {
-    "@sishuguojixuefu/eslint-config": "^0.5.8",
+    "@sishuguojixuefu/eslint-config": "^0.6.0",
     "@types/react": "^16.9.13",
     "@types/react-native": "^0.60.26",
     "husky": "^3.1.0",
