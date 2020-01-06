@@ -5,7 +5,7 @@ import json from 'rollup-plugin-json'
 import { terser } from 'rollup-plugin-terser'
 
 // 输入
-const input = 'src/index.ts'
+const input = 'index.ts'
 
 // 插件
 const plugins = [
