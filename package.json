@@ -5,6 +5,9 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rollup -c",
     "preversion": "yarn install && yarn update",
@@ -14,10 +17,10 @@
     "sishuguojixuefu": "yarn upgrade -S @sishuguojixuefu --latest",
     "veronica": "yarn upgrade -S @veronica --latest"
   },
-  "homepage": "",
+  "homepage": "https://github.com/sishuguojixuefu/iterator",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/sishuguojixuefu/iterator.git"
   },
   "author": {
     "name": "杨俊宁",
