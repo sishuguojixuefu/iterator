@@ -10,9 +10,28 @@ $ yarn add @sishuguojixuefu/iterator
 
 ## Usage
 
-> TODO
+### interface
 
-## 实现原理
+```ts
+/**
+ * 异常记录
+ */
+static getExceptionRecordsList = async (params: {}, page, size) => {
+  const result: {
+    data: { id: string; studentGroupName: string; startTime: string; endTime: string; outTime: boolean }[]
+    total: number
+  } = await request.post('/course/exception-records', { ...params, page, size })
+  return result
+}
+```
+
+### iterator
+
+```js
+this.Iterator = createAsyncIterator(getExceptionRecordsList, params, 10)
+```
+
+## principle
 
 Iterator接口的实现须满足几个条件：
 

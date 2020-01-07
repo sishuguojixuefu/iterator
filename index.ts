@@ -2,7 +2,7 @@ export interface TargetFunction {
   (params: object, page?: number, size?: number): Promise<{ data: any[]; total: number }>
 }
 
-export interface AsyncIteratorPropsType {
+export interface AsyncIterator {
   next(): Promise<{ done: boolean; value: any[]; total: number }>
 }
 
