@@ -1,6 +1,6 @@
 {
   "name": "@sishuguojixuefu/iterator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "让前端分页需求更简单",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
