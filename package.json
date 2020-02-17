@@ -28,7 +28,7 @@
     "email": "1003719811@qq.com"
   },
   "devDependencies": {
-    "@sishuguojixuefu/eslint-config": "^0.6.0",
+    "@sishuguojixuefu/eslint-config": "^0.7.3",
     "@types/react": "^16.9.13",
     "@types/react-native": "^0.60.26",
     "husky": "^3.1.0",
@@ -42,6 +42,17 @@
     "tslib": "^1.10.0",
     "typescript": "^3.7.4"
   },
+  "eslintConfig": {
+    "extends": [
+      "@sishuguojixuefu"
+    ]
+  },
+  "eslintIgnore": [
+    "!.eslintrc.js",
+    "!.prettierrc.js",
+    "dist/"
+  ],
+  "prettier": "@sishuguojixuefu/eslint-config/.prettierrc.js",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
